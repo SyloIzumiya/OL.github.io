@@ -48,6 +48,16 @@ html{
     height: 840px;
     color: white ;
 }
+
+#home h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: century;
+}
 #home::before{
     content: "";
     position: absolute;
@@ -75,7 +85,7 @@ html{
     background-color: transparent;
     border: 1px solid white;
     outline: none;
-    transition: .8 ease-in;
+    transition: .6 ease-in;
 
 }
 
